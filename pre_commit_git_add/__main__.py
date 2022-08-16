@@ -1,11 +1,4 @@
-import subprocess
-import sys
-
-
-def main(*args, **kwargs):
-    print(f"args={args}", file=sys.stderr)
-    print(f"kwargs={kwargs}", file=sys.stderr)
-    subprocess.run(['git', 'add', '--update'], check=True)
+from . import main
 
 
 if __name__ == '__main__':

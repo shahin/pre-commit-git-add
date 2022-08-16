@@ -1,3 +1,6 @@
 [project]
 name = "pre_commit_git_add"
-version = "0.1.0"
+version = "0.1.1"
+
+[project.scripts]
+pre-commit-git-add = "pre_commit_git_add:main"
