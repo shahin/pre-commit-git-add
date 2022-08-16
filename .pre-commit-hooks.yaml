@@ -3,6 +3,7 @@
   description: Adds changes to the git index
   entry: pre-commit-git-add
   args: ["--update"]
+  pass_filenames: false
   language: python
   require_serial: true
   fail_fast: true
