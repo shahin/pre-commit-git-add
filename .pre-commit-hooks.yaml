@@ -1,8 +1,8 @@
 - id: update
-  name: Git Add
+  name: git add
   description: Adds changes to the git index
   entry: pre-commit-git-add
+  args: ["--update"]
   language: python
-  fail_fast: true
-  verbose: true
   require_serial: true
+  fail_fast: true
